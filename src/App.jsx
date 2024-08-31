@@ -5,7 +5,7 @@ import AppLayout from "./layout/AppLayout";
 import MoviePage from "./pages/Movies/MoviePage";
 import MovieDetailPage from "./pages/MovieDetail/MovieDetailPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
-import Homepage from "./pages/Homepage/Homepage";
+import HomePage from "./pages/Homepage/HomePage";
 
 // 홈페이지 /
 // 영화 전체보여주는 페이지 (서치) /movies
@@ -16,7 +16,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<AppLayout />}>
-          <Route index element={<Homepage />} />
+          <Route index element={<HomePage />} />
           {/* nested route */}
           <Route path="movies">
             <Route index element={<MoviePage />} />

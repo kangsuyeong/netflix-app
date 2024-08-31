@@ -1,7 +1,7 @@
 import React from "react";
 
-const Homepage = () => {
-  return <div>homepage</div>;
+const HomePage = () => {
+  return <div>홈페이지 입니다.</div>;
 };
 
-export default Homepage;
+export default HomePage;
